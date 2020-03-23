@@ -48,5 +48,5 @@
          sum +=c;
          z+=(c*g);   
          }
-         document.getElementById("tab1").innerHTML= '<h2 style="'+"color: teal; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"+ '"'+ ">"+"<b>CGPA IS "+ parseFloat(z/sum) +"</b></h2>";
+         document.getElementById("tab1").innerHTML= '<h2 style="'+"color: teal; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"+ '"'+ ">"+"<b>CGPA IS "+ (parseFloat(z/sum)).toFixed(2) +"</b></h2>";
      }
